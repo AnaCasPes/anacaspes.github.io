@@ -1,0 +1,175 @@
+/* GENERAL */
+body {
+  font-family: Courier, sans-serif;
+  background-color: #eef5ee;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.center {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #2e7d32;
+  margin: 20px 0;
+}
+
+/* HEADER */
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 20px;
+}
+
+.titulo-principal {
+  font-size: 40px;
+  margin: 0;
+}
+
+.titulo-secundario {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.autor {
+  font-size: 30px;
+  margin: 0;
+  color: black;
+}
+
+/* NAVEGACIÓN HORIZONTAL */
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #66bb6a;
+}
+
+/* TEXTOS */
+h2, h3, h4 {
+  color: #006600;
+  margin-top: 20px;
+}
+
+.subtitulo {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  margin: 15px;
+}
+
+
+/* LISTAS */
+.lista-cuadrado {
+  list-style-type: square;
+  margin-left: 40px;
+}
+
+.lista-circulo {
+  list-style-type: circle;
+  margin-left: 40px;
+}
+
+ul, ol {
+  background-color: #dcedc8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+/* ENLACES */
+a {
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* TABLA */
+.bird-table {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: 20px auto;
+}
+
+.bird-table th {
+  background-color: #81c784;
+}
+
+.bird-table, .bird-table th, .bird-table td {
+  border: 2px solid #2e7d32;
+  padding: 8px;
+  text-align: center;
+}
+
+
+/* FORMULARIO */
+form {
+  background-color: #c8e6c9;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  margin: auto;
+}
+
+form h3 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+
+/* AVISO */
+.aviso mark {
+  background-color: #ffff66;
+}
+
+
+/* IMÁGENES */
+img {
+  max-width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+
